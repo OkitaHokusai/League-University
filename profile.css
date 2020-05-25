@@ -1,0 +1,113 @@
+.profilebg{
+    background-image: url(Home/voidbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: ;
+    position: -webkit-sticky;
+    top: 0;
+}
+.structure{
+    background-color: rgb(150, 100, 190);
+    height: 100%;
+    width: 100%;
+}
+.profile{
+    margin: 0;
+    padding: 0;
+}
+.profile-art{
+    width: 100%;
+    background-image: url(http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg);
+    height: 300px;
+    background-position: top;
+    position: ;
+}
+
+.profile-art-info{
+background-color: slateblue;
+height: 30px;
+margin-top: -2%;
+}
+
+.profile-icon{
+    border: slateblue solid 5px;
+    height: 150px;
+    margin-left: 10%;
+    margin-top: -40%;
+}
+
+.profile-letter-info{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin-top: -35%;
+    margin-left: -45%;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.profile-letter-subinfo{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin-top: -10%;
+    margin-left: -45%;
+    font-size: 20px;
+    font-weight:300;
+}
+
+.profile-elo{
+    height: 200px;
+}
+
+.profile-elo-status{
+    display: inline-flex;
+    margin-top: -5%;
+    padding: 10%;
+    border-radius: 1%;
+}
+.profile-elo-status-info{
+
+}
+
+.profile-title-elo{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.profile-above-elo{
+    color: rgb(194, 194, 194);
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+.profile-wins{
+    color: rgb(30, 192, 30);
+}
+.profile-loses{
+    color: red;
+}
+
+.wrate{
+    background-color: rgb(202, 56, 56);
+    height: 10px;
+    width: 200px;
+    position: absolute;
+}
+.wrate-prct{
+    background-color: green;
+    height: 10px;
+    width: 140px; 
+    position: relative;
+}
+.wrate-prct-2{
+    background-color: green;
+    height: 10px;
+    width: 120px; 
+    position: relative;
+}
+.division{
+    background-color: slateblue;
+    height: 30px;
+}
