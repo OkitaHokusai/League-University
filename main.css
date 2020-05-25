@@ -1,0 +1,44 @@
+.mainbg{
+    background-image: url(Home/homebg.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    overflow: hidden ;
+    
+}
+.mainbox{
+background-color: rgba(107, 107, 107, 0.568);
+height: 300px;
+width: 600px;
+margin-top: 20%;
+border-radius: 4px;
+margin-left: 28%;
+}
+.mainbox-content{
+    padding: 30px;
+}
+
+
+
+/* little tweaks */
+.cwhite{
+    color: white;
+}
+.btntw{
+    width: 50%;
+}
+select option{
+color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.mainbox-text{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+

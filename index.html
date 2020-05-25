@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League University</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="Home/icon-page.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
+</head>
+<body >
+    <section class="mainbg">
+        <div class="container">
+            <div class="row">
+                <div class="mainbox z-depth-5">
+                    <div class="mainbox-content">
+                        <div class="center-align">
+                            <p class="mainbox-text cwhite"><b>Digite seu nome de invocar abaixo!</b></p>
+                        </div>
+                        <div class="col s10">
+                            <input type="text" class="cwhite btntw">
+                        </div>
+                        <div class="col s2">
+                            <select class="cwhite white">
+                                <option>BR</option>
+                                <option>KR</option>
+                                <option>NA</option>
+                                <option>EUW</option>
+                                <option>JP</option>
+                                <option>OCE</option>
+                                <option>TR</option>
+                                <option>LAN</option>
+                                <option>EUNE</option>
+                                <option>LAS</option>
+                                <option>RU</option>
+                            </select>
+                        </div>
+                        <div class="center-align " >
+                            <button type="submit" class="btn purple btntw " style="margin-top: 5%;">
+                                Go!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <script>
+      M.AutoInit();
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems, options);
+     });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+     
+    <script type="text/javascript">
+    $('section').mousemove(function(e){
+        var moveX =(e.pageX * -1 / 100);
+        var moveY =(e.pageY * -1 / 100);
+        $(this).css('background-position', moveX + 'px ' + moveY + 'px ')
+    })
+    </script>
+</body>
+
+</html>
